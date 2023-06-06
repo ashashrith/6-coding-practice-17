@@ -1,0 +1,160 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-color: white;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  height: auto;
+  width: 100vh;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.home-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 15vh;
+  width: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 22px;
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+
+.para {
+  font-size: 12px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.span {
+  color: #0b69ff;
+  font-size: 12px;
+  font-family: 'roboto';
+}
+
+.details-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vh;
+}
+
+.final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  height: 50vh;
+  width: 45vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #475569;
+}
+
+.form-head {
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'roboto';
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #7e858e;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.input {
+  height: 25px;
+  width: 200px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 15px;
+  outline: none;
+}
+
+.submit-btn {
+  height: 25px;
+  width: 54px;
+  background-color: #0b69ff;
+  color: white;
+  border-width: 0px;
+  margin-top: 15px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+.history-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  height: 50vh;
+  width: 45vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #475569;
+  overflow-y: auto;
+  margin-left: 10px;
+}
+
+.heading-cont {
+  height: 35px;
+  width: 40vh;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  border-color: #475569;
+  border-width: 1px;
+  align-items: center;
+  border-style: solid;
+  justify-content: space-between;
+}
+
+.headings {
+  font-size: 12px;
+  color: #1e293b;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.head {
+  color: white;
+}

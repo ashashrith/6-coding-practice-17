@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.item-cont {
+  height: 35px;
+  width: 40vh;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  border-color: #475569;
+  border-width: 1px;
+  align-items: center;
+  border-style: solid;
+  justify-content: space-between;
+}
+
+.item {
+  color: #475569;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.btn {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.img {
+  height: 15px;
+  width: 15px;
+  background-size: cover;
+}

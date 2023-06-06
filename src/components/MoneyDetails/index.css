@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.list-balance {
+  height: 70px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4ff95;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #84cc16;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.list-income {
+  height: 70px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #bef5ff;
+  border-width: 1px;
+  border-color: #06b6d4;
+  border-radius: 8px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.list-expenses {
+  height: 70px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #a77fec;
+  border-width: 1px;
+  border-color: #7c3aed;
+  border-radius: 8px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.image {
+  height: 28px;
+  width: 28px;
+  background-size: cover;
+  margin-right: 18px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.your {
+  font-size: 10px;
+  color: #1e293b;
+  font-family: 'roboto';
+}
+
+.rs {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
